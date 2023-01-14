@@ -45,7 +45,7 @@ public class Main2 {
             System.out.println("You should enter 2 numbers!");
             return getCoordinate();
         }
-        if (x > 3 || y > 3) {
+        if (x > 3 || y > 3 || x < 1 || y < 1) {
             System.out.println("Coordinates should be from 1 to 3!");
             return getCoordinate();
         }
